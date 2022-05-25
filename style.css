@@ -53,11 +53,13 @@ header img {
 
 
 .menu-mobile{
-    display: flex;
     flex-direction: column;
-    gap:50px;
+    gap:150px;
     display: none;
     background-color: blue;
+    height: 100%;
+    align-items:flex-start;
+    
 }
 
 .menu-mobile a {
@@ -68,5 +70,5 @@ header img {
 }
 
 .active{
-    display: block;
+    display: flex;
 }

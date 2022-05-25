@@ -1,6 +1,8 @@
 let menuMobile = document.querySelector(".menu-mobile");
+let element = document.getElementById("menu");
+
 function toggleMenu (){
-    menuMobile.classList.add("ciccio")
+    menuMobile.classList.add("active")
 }
 
-menuMobile.addEventListener('click', toggleMenu);
+element.addEventListener('click', toggleMenu);
