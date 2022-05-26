@@ -46,20 +46,20 @@ header img {
         display: none;
     }
 
-    header img {
+    .menu {
         display: block;
     }    
 }
 
 
 .menu-mobile{
+    padding:20px 30px;
     flex-direction: column;
     gap:150px;
     display: none;
     background-color: blue;
     height: 100%;
-    align-items:flex-start;
-    
+    align-items:flex-start;    
 }
 
 .menu-mobile a {
@@ -71,4 +71,12 @@ header img {
 
 .active{
     display: flex;
+}
+
+.disable{
+    display: none;
+}
+
+.able {
+    display:block;
 }
